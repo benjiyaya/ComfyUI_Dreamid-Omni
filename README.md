@@ -15,7 +15,7 @@ A ComfyUI custom node for [DreamID-Omni](https://github.com/Guoxu1233/DreamID-Om
 ## Why This Fork Changed Attention
 
 This fork is based on RunningHub's original repository:
-[HM-RunningHub/ComfyUI_RH_Dreamid-Omni](https://github.com/HM-RunningHub/ComfyUI_RH_Dreamid-Omni)
+ RunningHub / ComfyUI_RH_Dreamid-Omni
 
 The original project targets a server-style environment where Flash Attention is commonly available and easier to maintain. In many consumer Windows/Linux setups, building or matching `flash_attn` can be difficult due to CUDA, compiler, and PyTorch version constraints.
 
