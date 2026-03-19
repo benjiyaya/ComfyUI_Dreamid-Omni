@@ -12,7 +12,7 @@ A ComfyUI custom node for [DreamID-Omni](https://github.com/Guoxu1233/DreamID-Om
 - **Consumer-PC Friendly Attention** — Uses PyTorch SDPA and supports Sage Attention, without requiring Flash Attention builds
 - **Native ComfyUI Integration** — Outputs standard `VIDEO` type, compatible with ComfyUI's video pipeline
 
-## Why This Fork Changed Attention
+## This Repo Start from Fork And Many Changes To Suite Consumer Hardware
 
 This fork is based on RunningHub's original repository:
  RunningHub / ComfyUI_RH_Dreamid-Omni
@@ -20,6 +20,9 @@ This fork is based on RunningHub's original repository:
 The original project targets a server-style environment where Flash Attention is commonly available and easier to maintain. In many consumer Windows/Linux setups, building or matching `flash_attn` can be difficult due to CUDA, compiler, and PyTorch version constraints.
 
 To make local deployment easier on consumer PCs, this fork switches the default attention path to PyTorch SDPA and enables Sage Attention when available. This improves compatibility while still keeping good performance on common desktop GPUs.
+
+And Model Loader enable FP16 and FP8 , onload/offload.
+
 
 ## 🛠️ Installation
 
