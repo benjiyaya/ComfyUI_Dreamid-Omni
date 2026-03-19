@@ -6,7 +6,7 @@
   "nodes": [
     {
       "id": 3,
-      "type": "RunningHub DreamID-Omni Sampler",
+      "type": "ComfyUI DreamID-Omni Sampler",
       "pos": [
         72.01657162500014,
         806.9065709999998
@@ -21,7 +21,7 @@
       "inputs": [
         {
           "name": "pipeline",
-          "type": "RunningHub_DreamID_Omni_Pipeline",
+          "type": "ComfyUI_DreamID_Omni_Pipeline",
           "link": 34
         },
         {
@@ -58,11 +58,11 @@
           ]
         }
       ],
-      "title": "RunningHub DreamID-Omni Sampler (Two Persons)",
+      "title": "ComfyUI DreamID-Omni Sampler (Two Persons)",
       "properties": {
-        "aux_id": "HM-RunningHub/ComfyUI_RH_Dreamid-Omni",
+        "aux_id": "benjiyaya/ComfyUI_Dreamid-Omni",
         "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
-        "Node name for S&R": "RunningHub DreamID-Omni Sampler"
+        "Node name for S&R": "ComfyUI DreamID-Omni Sampler"
       },
       "widgets_values": [
         "<img1>: A young man with wavy brown hair, identified as <sub1>.\n<img2>: The Mona Lisa painting, a woman, identified as <sub2>.\n**Overall Environment/Scene**: A serene Italian Renaissance garden at dusk. The warm, golden light of the setting sun filters through cypress trees. In the background, a marble fountain gently trickles. The shot is an upper-body close-up of the two subjects.\n**Main Characters/Subjects Appearance**: <sub1>, on the left, wears a simple linen shirt appropriate for the era. <sub2>, on the right, is dressed in a dark, elegant gown, her hair styled softly.\n**Main Characters/Subjects Actions**: <sub1> looks at <sub2> with an earnest and gentle expression, leaning in slightly as if sharing a secret. <sub2> holds a demure pose, listening with a faint, enigmatic smile playing on her lips, her gaze directed towards <sub1>.\n<sub1> looks at <sub2> admiringly and says, <S>Your smile holds a thousand stories.<E> <sub2> glances back, her smile deepening slightly as she replies, <S>Perhaps one of them is about you.<E>",
@@ -335,7 +335,7 @@
     },
     {
       "id": 18,
-      "type": "RunningHub DreamID-Omni Loader",
+      "type": "ComfyUI DreamID-Omni Loader",
       "pos": [
         -907.0029334727284,
         581.9803763818187
@@ -351,7 +351,7 @@
       "outputs": [
         {
           "name": "pipeline",
-          "type": "RunningHub_DreamID_Omni_Pipeline",
+          "type": "ComfyUI_DreamID_Omni_Pipeline",
           "links": [
             34,
             40
@@ -359,9 +359,9 @@
         }
       ],
       "properties": {
-        "aux_id": "HM-RunningHub/ComfyUI_RH_Dreamid-Omni",
+        "aux_id": "benjiyaya/ComfyUI_Dreamid-Omni",
         "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
-        "Node name for S&R": "RunningHub DreamID-Omni Loader"
+        "Node name for S&R": "ComfyUI DreamID-Omni Loader"
       },
       "widgets_values": [
         "dreamid_omni.bf16.safetensors",
@@ -371,7 +371,7 @@
     },
     {
       "id": 20,
-      "type": "RunningHub DreamID-Omni Sampler",
+      "type": "ComfyUI DreamID-Omni Sampler",
       "pos": [
         145.52844543409108,
         -90.27279347272714
@@ -386,7 +386,7 @@
       "inputs": [
         {
           "name": "pipeline",
-          "type": "RunningHub_DreamID_Omni_Pipeline",
+          "type": "ComfyUI_DreamID_Omni_Pipeline",
           "link": 40
         },
         {
@@ -423,11 +423,11 @@
           ]
         }
       ],
-      "title": "RunningHub DreamID-Omni Sampler (Single Person)",
+      "title": "ComfyUI DreamID-Omni Sampler (Single Person)",
       "properties": {
-        "aux_id": "HM-RunningHub/ComfyUI_RH_Dreamid-Omni",
+        "aux_id": "benjiyaya/ComfyUI_Dreamid-Omni",
         "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
-        "Node name for S&R": "RunningHub DreamID-Omni Sampler"
+        "Node name for S&R": "ComfyUI DreamID-Omni Sampler"
       },
       "widgets_values": [
         "<img1>: In the frame, a woman with black hair is identified as <sub1>.\n<sub1> maintains eye contact, swallows as if choosing her words, and says, <S>I keep telling myself I'm fine,but some nights it feels like I'm just performing calm.<E>",
@@ -489,7 +489,7 @@
       0,
       3,
       0,
-      "RunningHub_DreamID_Omni_Pipeline"
+      "ComfyUI_DreamID_Omni_Pipeline"
     ],
     [
       40,
@@ -497,7 +497,7 @@
       0,
       20,
       0,
-      "RunningHub_DreamID_Omni_Pipeline"
+      "ComfyUI_DreamID_Omni_Pipeline"
     ],
     [
       41,
