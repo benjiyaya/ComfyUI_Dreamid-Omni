@@ -1,0 +1,32 @@
+ckpt_dir: xxx
+output_dir: ./result/dreamid_omni_24g
+
+# 24GB-friendly defaults: prioritize fitting into VRAM over speed.
+sample_steps: 28
+solver_name: unipc
+model_name: "dreamid_omni"
+shift: 5.0
+
+# Single GPU by default (set to 8 only if using torchrun --nproc_per_node 8)
+sp_size: 1
+
+video_cfg_scale: 3.0
+video_ref_cfg_scale: 1.5
+audio_cfg_scale: 4.0
+audio_ref_cfg_scale: 2.0
+mode: "r2av"
+
+# Lower VRAM usage (slower). If your env supports fp8 end-to-end, you can try True.
+fp8: False
+cpu_offload: True
+
+seed: 100
+video_negative_prompt: "jitter, bad hands, blur, distortion"
+audio_negative_prompt: "robotic, muffled, echo, distorted"
+
+# Lower resolution to reduce VRAM peak. You can try [704, 1280] after it runs.
+video_frame_height_width: [512, 992]
+
+each_example_n_times: 1
+data_root: ./test_case
+
