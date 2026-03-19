@@ -44,6 +44,10 @@ pip install -r requirements.txt
 
 ## 📦 Model Download & Installation
 
+FP32 [https://huggingface.co/XuGuo699/DreamID-Omni](https://huggingface.co/XuGuo699/DreamID-Omni)
+
+BF16 and FP8 [https://huggingface.co/benjiaiplayground/DreamID-Omni-bf16-FP8](https://huggingface.co/benjiaiplayground/DreamID-Omni-bf16-FP8)
+
 All models must be placed in `ComfyUI/models/DreamID-Omni/` with the following structure:
 
 ```
