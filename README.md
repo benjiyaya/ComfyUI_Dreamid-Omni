@@ -15,7 +15,7 @@ A ComfyUI custom node for [DreamID-Omni](https://github.com/Guoxu1233/DreamID-Om
 ## Why This Fork Changed Attention
 
 This fork is based on RunningHub's original repository:
-[HM-RunningHub/ComfyUI_RH_Dreamid-Omni]
+[HM-RunningHub/ComfyUI_RH_Dreamid-Omni](https://github.com/HM-RunningHub/ComfyUI_RH_Dreamid-Omni)
 
 The original project targets a server-style environment where Flash Attention is commonly available and easier to maintain. In many consumer Windows/Linux setups, building or matching `flash_attn` can be difficult due to CUDA, compiler, and PyTorch version constraints.
 
@@ -43,10 +43,6 @@ pip install -r requirements.txt
 > - If your environment already supports Flash Attention and you want to experiment, you can still install it manually.
 
 ## 📦 Model Download & Installation
-
-FP32 [https://huggingface.co/XuGuo699/DreamID-Omni](https://huggingface.co/XuGuo699/DreamID-Omni)
-
-BF16 and FP8 [https://huggingface.co/benjiaiplayground/DreamID-Omni-bf16-FP8](https://huggingface.co/benjiaiplayground/DreamID-Omni-bf16-FP8)
 
 All models must be placed in `ComfyUI/models/DreamID-Omni/` with the following structure:
 

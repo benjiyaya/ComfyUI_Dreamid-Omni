@@ -22,7 +22,7 @@ try:
 except ImportError:
     VideoFromFile = None
 
-class RunningHub_DreamID_Omni_Loader:
+class DreamID_Omni_Loader:
     @staticmethod
     def _dreamid_model_dir():
         return os.path.join(folder_paths.models_dir, "DreamID-Omni", "DreamID_Omni")
@@ -83,7 +83,7 @@ class RunningHub_DreamID_Omni_Loader:
         
         return ({'engine': dreamid_omni_engine, 'config': config}, )
 
-class RunningHub_DreamID_Omni_Sampler:
+class DreamID_Omni_Sampler:
 
     @classmethod
     def INPUT_TYPES(s):
@@ -261,6 +261,6 @@ class RunningHub_DreamID_Omni_Sampler:
             return video_path
 
 NODE_CLASS_MAPPINGS = {
-    "ComfyUI DreamID-Omni Loader": RunningHub_DreamID_Omni_Loader,
-    "ComfyUI DreamID-Omni Sampler": RunningHub_DreamID_Omni_Sampler,
+    "ComfyUI DreamID-Omni Loader": DreamID_Omni_Loader,
+    "ComfyUI DreamID-Omni Sampler": DreamID_Omni_Sampler,
 }
