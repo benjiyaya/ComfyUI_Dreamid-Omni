@@ -30,6 +30,10 @@ And Model Loader enable FP16 and FP8 , onload/offload.
 <img width="1269" height="915" alt="Screenshot 2026-03-20 153115" src="https://github.com/user-attachments/assets/dce999ca-7400-4855-b76e-f4d337732252" />
 
 
+FP8 For ComfyUI
+<img width="1803" height="770" alt="Screenshot 2026-03-20 222027" src="https://github.com/user-attachments/assets/8e165f27-557c-4cd4-bd58-d7a274231c9a" />
+
+
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
