@@ -51,6 +51,8 @@ FP32 : [https://huggingface.co/XuGuo699/DreamID-Omni](https://huggingface.co/XuG
 
 FP16 , FP8 : [https://huggingface.co/benjiaiplayground/DreamID-Omni-bf16-FP8](https://huggingface.co/benjiaiplayground/DreamID-Omni-bf16-FP8)
 
+VAE , T5 text encoder , Tokenzier :  [https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B](https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B)
+
 All models must be placed in `ComfyUI/models/DreamID-Omni/` with the following structure:
 
 ```
@@ -63,7 +65,8 @@ ComfyUI/
         │   ├── models_t5_umt5-xxl-enc-bf16.pth # T5 text encoder
         │   ├── Wan2.2_VAE.pth                   # Video VAE
         │   └── google/
-        │       └── umt5-xxl/                    # T5 tokenizer
+        │       └── umt5-xxl/ (All Files For Tokenzier)  # T5 tokenizer
+        
         └── MMAudio/
             └── ext_weights/
                 ├── v1-16.pth                    # Audio VAE
