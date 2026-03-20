@@ -24,6 +24,9 @@ To make local deployment easier on consumer PCs, this fork switches the default 
 And Model Loader enable FP16 and FP8 , onload/offload.
 
 
+<img width="1269" height="915" alt="Screenshot 2026-03-20 153115" src="https://github.com/user-attachments/assets/dce999ca-7400-4855-b76e-f4d337732252" />
+
+
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
