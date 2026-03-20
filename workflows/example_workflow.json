@@ -1,100 +1,28 @@
 {
   "id": "00000000-0000-0000-0000-000000000000",
   "revision": 0,
-  "last_node_id": 20,
-  "last_link_id": 43,
+  "last_node_id": 23,
+  "last_link_id": 53,
   "nodes": [
-    {
-      "id": 3,
-      "type": "ComfyUI DreamID-Omni Sampler",
-      "pos": [
-        72.01657162500014,
-        806.9065709999998
-      ],
-      "size": [
-        479.5937999999999,
-        733.6117000000002
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "pipeline",
-          "type": "ComfyUI_DreamID_Omni_Pipeline",
-          "link": 34
-        },
-        {
-          "name": "ref_image",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 21
-        },
-        {
-          "name": "ref_image2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 16
-        },
-        {
-          "name": "ref_audio",
-          "shape": 7,
-          "type": "AUDIO",
-          "link": 17
-        },
-        {
-          "name": "ref_audio2",
-          "shape": 7,
-          "type": "AUDIO",
-          "link": 18
-        }
-      ],
-      "outputs": [
-        {
-          "name": "video",
-          "type": "VIDEO",
-          "links": [
-            20
-          ]
-        }
-      ],
-      "title": "ComfyUI DreamID-Omni Sampler (Two Persons)",
-      "properties": {
-        "aux_id": "benjiyaya/ComfyUI_Dreamid-Omni",
-        "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
-        "Node name for S&R": "ComfyUI DreamID-Omni Sampler"
-      },
-      "widgets_values": [
-        "<img1>: A young man with wavy brown hair, identified as <sub1>.\n<img2>: The Mona Lisa painting, a woman, identified as <sub2>.\n**Overall Environment/Scene**: A serene Italian Renaissance garden at dusk. The warm, golden light of the setting sun filters through cypress trees. In the background, a marble fountain gently trickles. The shot is an upper-body close-up of the two subjects.\n**Main Characters/Subjects Appearance**: <sub1>, on the left, wears a simple linen shirt appropriate for the era. <sub2>, on the right, is dressed in a dark, elegant gown, her hair styled softly.\n**Main Characters/Subjects Actions**: <sub1> looks at <sub2> with an earnest and gentle expression, leaning in slightly as if sharing a secret. <sub2> holds a demure pose, listening with a faint, enigmatic smile playing on her lips, her gaze directed towards <sub1>.\n<sub1> looks at <sub2> admiringly and says, <S>Your smile holds a thousand stories.<E> <sub2> glances back, her smile deepening slightly as she replies, <S>Perhaps one of them is about you.<E>",
-        20,
-        71101737289725,
-        "randomize",
-        992,
-        512,
-        true,
-        false,
-        false
-      ]
-    },
     {
       "id": 4,
       "type": "SaveVideo",
       "pos": [
-        732.3714206407019,
-        -93.02485958842966
+        874.6934451566997,
+        101.00143988357017
       ],
       "size": [
-        785,
-        636.0548387096774
+        859.5360000000001,
+        633.3928387096774
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
           "name": "video",
           "type": "VIDEO",
-          "link": 43
+          "link": 46
         }
       ],
       "outputs": [],
@@ -114,21 +42,21 @@
       "id": 5,
       "type": "SaveVideo",
       "pos": [
-        611.5918329334155,
-        805.6539002253945
+        900.6801494944144,
+        864.7013167633941
       ],
       "size": [
         855.6399999999996,
         719.4578999999999
       ],
       "flags": {},
-      "order": 8,
-      "mode": 4,
+      "order": 7,
+      "mode": 0,
       "inputs": [
         {
           "name": "video",
           "type": "VIDEO",
-          "link": 20
+          "link": 53
         }
       ],
       "outputs": [],
@@ -148,15 +76,15 @@
       "id": 6,
       "type": "LoadImage",
       "pos": [
-        -312.9314399274364,
-        44.69081160889278
+        -185.48369351214583,
+        314.18516999953715
       ],
       "size": [
-        282.798828125,
-        314
+        410.38039359183966,
+        389.9402008059559
       ],
       "flags": {},
-      "order": 1,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -164,8 +92,8 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            21,
-            41
+            47,
+            49
           ]
         },
         {
@@ -181,7 +109,7 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "Jenna.png",
+        "Wan22_fluxkrea-2025-08-20 02-57-03-0056.png",
         "image"
       ]
     },
@@ -189,15 +117,15 @@
       "id": 7,
       "type": "LoadAudio",
       "pos": [
-        -312.50062927242647,
-        427.796561523516
+        -192.22722613969876,
+        751.5566094162433
       ],
       "size": [
-        282.798828125,
-        136
+        432.79882812500006,
+        145.09090909090912
       ],
       "flags": {},
-      "order": 0,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -205,7 +133,8 @@
           "name": "AUDIO",
           "type": "AUDIO",
           "links": [
-            42
+            48,
+            51
           ]
         }
       ],
@@ -225,23 +154,23 @@
       "id": 9,
       "type": "LoadImage",
       "pos": [
-        -311.2789999999999,
-        807.0329999999999
+        -192.7359729869424,
+        1018.7317383390912
       ],
       "size": [
-        282.798828125,
-        102
+        409.15833225723145,
+        346.0636363636363
       ],
       "flags": {},
-      "order": 2,
-      "mode": 4,
+      "order": 1,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            16
+            50
           ]
         },
         {
@@ -257,67 +186,31 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "your_reference_image_person2.png",
+        "Hana.png",
         "image"
-      ]
-    },
-    {
-      "id": 10,
-      "type": "LoadAudio",
-      "pos": [
-        -313.9410000000002,
-        981.7999999999998
-      ],
-      "size": [
-        282.798828125,
-        136
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 4,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            17
-          ]
-        }
-      ],
-      "title": "Load Reference Audio (Person 1)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.17.0",
-        "Node name for S&R": "LoadAudio"
-      },
-      "widgets_values": [
-        "your_reference_audio_person1.wav",
-        null,
-        null
       ]
     },
     {
       "id": 11,
       "type": "LoadAudio",
       "pos": [
-        -315.2720000000002,
-        1182.5810000000001
+        -179.10587298694293,
+        1410.5465383390908
       ],
       "size": [
-        282.798828125,
-        136
+        386.198828125,
+        138.19999999999982
       ],
       "flags": {},
-      "order": 4,
-      "mode": 4,
+      "order": 0,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "AUDIO",
           "type": "AUDIO",
           "links": [
-            18
+            52
           ]
         }
       ],
@@ -328,72 +221,36 @@
         "Node name for S&R": "LoadAudio"
       },
       "widgets_values": [
-        "your_reference_audio_person2.wav",
+        "Ana de Armas - demo.MP3",
         null,
         null
       ]
     },
     {
-      "id": 18,
-      "type": "ComfyUI DreamID-Omni Loader",
-      "pos": [
-        -907.0029334727284,
-        581.9803763818187
-      ],
-      "size": [
-        352.94783458252874,
-        106
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "pipeline",
-          "type": "ComfyUI_DreamID_Omni_Pipeline",
-          "links": [
-            34,
-            40
-          ]
-        }
-      ],
-      "properties": {
-        "aux_id": "benjiyaya/ComfyUI_Dreamid-Omni",
-        "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
-        "Node name for S&R": "ComfyUI DreamID-Omni Loader"
-      },
-      "widgets_values": [
-        "dreamid_omni.bf16.safetensors",
-        "BF16",
-        "Sage Attention"
-      ]
-    },
-    {
-      "id": 20,
+      "id": 21,
       "type": "ComfyUI DreamID-Omni Sampler",
       "pos": [
-        145.52844543409108,
-        -90.27279347272714
+        412.55883085596935,
+        106.42488789066577
       ],
       "size": [
-        519.4109691960932,
-        665.4492862509392
+        437.1374545454546,
+        616.5244545454545
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
           "name": "pipeline",
           "type": "ComfyUI_DreamID_Omni_Pipeline",
-          "link": 40
+          "link": 45
         },
         {
           "name": "ref_image",
           "shape": 7,
           "type": "IMAGE",
-          "link": 41
+          "link": 47
         },
         {
           "name": "ref_image2",
@@ -405,7 +262,7 @@
           "name": "ref_audio",
           "shape": 7,
           "type": "AUDIO",
-          "link": 42
+          "link": 48
         },
         {
           "name": "ref_audio2",
@@ -419,107 +276,213 @@
           "name": "video",
           "type": "VIDEO",
           "links": [
-            43
+            46
           ]
         }
       ],
-      "title": "ComfyUI DreamID-Omni Sampler (Single Person)",
       "properties": {
-        "aux_id": "benjiyaya/ComfyUI_Dreamid-Omni",
+        "aux_id": "HM-RunningHub/ComfyUI_RH_Dreamid-Omni",
         "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
         "Node name for S&R": "ComfyUI DreamID-Omni Sampler"
       },
       "widgets_values": [
-        "<img1>: In the frame, a woman with black hair is identified as <sub1>.\n<sub1> maintains eye contact, swallows as if choosing her words, and says, <S>I keep telling myself I'm fine,but some nights it feels like I'm just performing calm.<E>",
+        "<img1>: In the frame, a woman with brown long hair is identified as <sub1>.\n\n<sub1> maintains eye contact, swallows as if choosing her words, and says, \n\n<S>This is kinda fun! I can talk in front of the camera now!<E>",
         20,
-        893489071531613,
+        204364105739955,
         "randomize",
         992,
         512,
         "unipc",
-        false,
+        true,
         false
+      ]
+    },
+    {
+      "id": 22,
+      "type": "ComfyUI DreamID-Omni Sampler",
+      "pos": [
+        431.1644638100606,
+        875.8559931384834
+      ],
+      "size": [
+        444.51,
+        682.1100000000001
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipeline",
+          "type": "ComfyUI_DreamID_Omni_Pipeline",
+          "link": 44
+        },
+        {
+          "name": "ref_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 49
+        },
+        {
+          "name": "ref_image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 50
+        },
+        {
+          "name": "ref_audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 51
+        },
+        {
+          "name": "ref_audio2",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 52
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "links": [
+            53
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "HM-RunningHub/ComfyUI_RH_Dreamid-Omni",
+        "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
+        "Node name for S&R": "ComfyUI DreamID-Omni Sampler"
+      },
+      "widgets_values": [
+        "<img1>: A young woman with wavy brown hair, identified as <sub1>.\n<img2>: A young woman with short hair, identified as <sub2>.\n**Overall Environment/Scene**: A serene Italian Renaissance garden at dusk. The warm, golden light of the setting sun filters through cypress trees. In the background, a marble fountain gently trickles. The shot is an upper-body close-up of the two subjects.\n**Main Characters/Subjects Appearance**: <sub1>, on the left, wears a simple linen shirt appropriate for the era. <sub2>, on the right, is dressed in a dark, elegant gown, her hair styled softly.\n**Main Characters/Subjects Actions**: <sub1> looks at <sub2> with an earnest and gentle expression, leaning in slightly as if sharing a secret. <sub2> holds a demure pose, listening with a faint, enigmatic smile playing on her lips, her gaze directed towards <sub1>.\n<sub1> looks at <sub2> admiringly and says, <S>Your smile holds a thousand stories.<E> <sub2> glances back, her smile deepening slightly as she replies, <S>Perhaps one of them is about you.<E>",
+        20,
+        470957877582190,
+        "randomize",
+        992,
+        512,
+        "unipc",
+        true,
+        false
+      ]
+    },
+    {
+      "id": 23,
+      "type": "ComfyUI DreamID-Omni Loader",
+      "pos": [
+        -194.22504255634286,
+        89.92165895263274
+      ],
+      "size": [
+        450.69980468749986,
+        124
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "pipeline",
+          "type": "ComfyUI_DreamID_Omni_Pipeline",
+          "links": [
+            44,
+            45
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "HM-RunningHub/ComfyUI_RH_Dreamid-Omni",
+        "ver": "207880be08ccf0b74ac9f0d3f47a4754e80c999d",
+        "Node name for S&R": "ComfyUI DreamID-Omni Loader"
+      },
+      "widgets_values": [
+        "dreamid_omni.bf16.safetensors",
+        "BF16",
+        "Sage Attention"
       ]
     }
   ],
   "links": [
     [
-      16,
-      9,
+      44,
+      23,
       0,
-      3,
-      2,
-      "IMAGE"
+      22,
+      0,
+      "ComfyUI_DreamID_Omni_Pipeline"
     ],
     [
-      17,
-      10,
+      45,
+      23,
       0,
-      3,
-      3,
-      "AUDIO"
+      21,
+      0,
+      "ComfyUI_DreamID_Omni_Pipeline"
     ],
     [
-      18,
-      11,
+      46,
+      21,
       0,
-      3,
       4,
-      "AUDIO"
-    ],
-    [
-      20,
-      3,
-      0,
-      5,
       0,
       "VIDEO"
     ],
     [
+      47,
+      6,
+      0,
       21,
-      6,
-      0,
-      3,
       1,
       "IMAGE"
     ],
     [
-      34,
-      18,
-      0,
-      3,
-      0,
-      "ComfyUI_DreamID_Omni_Pipeline"
-    ],
-    [
-      40,
-      18,
-      0,
-      20,
-      0,
-      "ComfyUI_DreamID_Omni_Pipeline"
-    ],
-    [
-      41,
-      6,
-      0,
-      20,
-      1,
-      "IMAGE"
-    ],
-    [
-      42,
+      48,
       7,
       0,
-      20,
+      21,
       3,
       "AUDIO"
     ],
     [
-      43,
-      20,
+      49,
+      6,
       0,
+      22,
+      1,
+      "IMAGE"
+    ],
+    [
+      50,
+      9,
+      0,
+      22,
+      2,
+      "IMAGE"
+    ],
+    [
+      51,
+      7,
+      0,
+      22,
+      3,
+      "AUDIO"
+    ],
+    [
+      52,
+      11,
+      0,
+      22,
       4,
+      "AUDIO"
+    ],
+    [
+      53,
+      22,
+      0,
+      5,
       0,
       "VIDEO"
     ]
@@ -529,10 +492,10 @@
       "id": 1,
       "title": "2 Person Video",
       "bounding": [
-        -325.2720000000002,
-        707.9630000000001,
-        1857.883415433415,
-        874.9118809999999
+        410.1644638100606,
+        791.1013167633939,
+        1356.1556856843551,
+        803.0578999999999
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -542,10 +505,36 @@
       "id": 2,
       "title": "1 Person Video",
       "bounding": [
-        -322.9314399274364,
-        -166.62485958842967,
-        1850.3028605681388,
-        751.8013523666417
+        401.22783085596944,
+        28.87043988357034,
+        1359.9186143007328,
+        723.6478387096773
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "Person No.2",
+      "bounding": [
+        -202.7359729869424,
+        945.1317383390913,
+        458.01463225723154,
+        641.4327000000001
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "Person No. 1",
+      "bounding": [
+        -206.9398549765267,
+        245.0599504107109,
+        461.41145696182804,
+        670.8875680964414
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -555,10 +544,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5131581182307069,
+      "scale": 0.5644739300537776,
       "offset": [
-        954.6037485963933,
-        436.8775954904253
+        714.831762540754,
+        172.1756875369279
       ]
     },
     "frontendVersion": "1.41.20",
