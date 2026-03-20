@@ -4,6 +4,9 @@
 
 A ComfyUI custom node for [DreamID-Omni](https://github.com/Guoxu1233/DreamID-Omni), enabling controllable human-centric audio-video generation with identity preservation. Generate talking-head videos with custom character faces and voices directly within ComfyUI.
 
+Tutorial Video for this Custom Node : https://youtu.be/nFB3pJDse_o
+
+
 ## ✨ Features
 
 - **Identity-Preserving Video Generation** — Generate videos where characters retain the face and voice from your reference inputs
